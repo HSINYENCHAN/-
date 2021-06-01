@@ -111,7 +111,7 @@ div {
     font-size: 24px;
 }
 
-.skill, .contact {
+.skillAndContact {
     background-color: #415165;
     text-align: center;
     line-height: 3em;
@@ -119,36 +119,33 @@ div {
     padding-bottom: 36px;
 }
 
-.skill ul, .contact ul {
+.skillAndContact ul {
     font-weight: normal;
+    color: #FFFFFF;
+    font-size: 24px;
 }
 
-.skill .ChiText, .contact .ChiText {
+.skillAndContact .ChiText {
     font-size: 32px;
     color: #FFFFFF;
 }
 
-.skill .EngText, .contact .EngText {
+.skillAndContact .EngText {
     font-size: 24px;
     color: #FFFFFF;
 }
 
-.skill ul {
-    padding-left: 876px;
-}
-
-.skill ul li {
-    color: #FFFFFF;
-    font-size: 24px;
-    text-align-last: left;
-}
-
-.skill .borderSolidGray, .contact .borderSolidGray {
+.skillAndContact .borderSolidGray {
     border-top: solid gray;
     width: 996px;
     height: 1px;
     margin-left: 462px;
     margin-top: 10px;
+}
+
+.skillAndContact ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .workExp img {
@@ -162,11 +159,6 @@ div {
 
 .workExp li {
     padding-top: 24px;
-}
-
-.contact ul li {
-    color: #FFFFFF;
-    font-size: 24px;
 }
 
 .contact img {

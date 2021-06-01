@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css rest end*/
+
+div {
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-weight: bold;
+}
+.wrap {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 47px;
+    padding-left: 360px;
+}
+
+.name {
+    font-size: 80px;
+    width: 264px;
+    height: 188px;
+}
+
+.borderSolidBlack {
+    border-top: 2px solid black;
+    width: 1200px;
+}
+
+.borderSolidGray {
+    border-top: solid gray;
+    width: 1200px;
+    height: 1px;
+    margin-bottom: 15px;
+}
+
+.main img {
+    padding-left: 360px;
+    padding-top: 48px;
+}
+
+.profile, .edu, .workExp {
+    padding-left: 360px;
+}
+
+.chineseTitle {
+    font-size: 32px;
+}
+
+.englishTitle {
+    font-size: 24px;
+    color: #A00404
+}
+
+.profile {
+    padding-top: 48px;
+    font-size: 24px
+}
+
+.edu, .workExp {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    font-size: 24px;
+}
+
+.skill, .contact {
+    background-color: #415165;
+    text-align: center;
+    line-height: 3em;
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.skill ul, .contact ul {
+    font-weight: normal;
+}
+
+.skill .ChiText, .contact .ChiText {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.skill .EngText, .contact .EngText {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.skill ul {
+    padding-left: 876px;
+}
+
+.skill ul li {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align-last: left;
+}
+
+.skill .borderSolidGray, .contact .borderSolidGray {
+    border-top: solid gray;
+    width: 996px;
+    height: 1px;
+    margin-left: 462px;
+    margin-top: 10px;
+}
+
+.workExp img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.workExp .fontSmall {
+    font-size: 20px;
+    width: 642px;
+}
+
+.workExp li {
+    padding-top: 24px;
+}
+
+.contact ul li {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.contact img {
+    margin-top: 10px;
+}
